@@ -1,0 +1,32 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+.box {
+    /* display: none; */ 
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 10px 42px;
+    border: 5px solid purple;
+    border-radius: 5px;
+    margin: 10px ;
+} 
+
+/* .box:not(:first-child) {
+    background-color: gold;
+} */
+
+/* .box:nth-child(2),:nth-child(3) {
+    background-color: blueviolet;
+} */
+
+/* .box:nth-child(odd) {
+    background-color: gold;
+} */
+
+.box:nth-child(2n + 4) {
+    background-color: gold;
+}
+
